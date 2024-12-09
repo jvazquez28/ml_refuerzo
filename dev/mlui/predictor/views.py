@@ -7,6 +7,9 @@ from django.shortcuts import render
 from django.conf import settings
 from .forms import SinglePredictionForm, FileUploadForm
 from .models import Prediction
+from django.db.models import Manager
+
+Prediction.objects = Manager()
 
 logger = logging.getLogger(__name__)
 
