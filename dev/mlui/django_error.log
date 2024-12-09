@@ -1,0 +1,28 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jvazq\Data_Analysis_Tools\projects\ml_refuerzo\dev\mlui\predictor\views.py", line 30, in predict_single
+    return render(request, 'predictor/single.html', {'form': form})
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: predictor/single.html
+"GET / HTTP/1.1" 500 86825
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\jvazq\Data_Analysis_Tools\anaconda3\envs\ml_refuerzo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\jvazq\Data_Analysis_Tools\projects\ml_refuerzo\dev\mlui\predictor\views.py", line 18, in predict_single
+    model = load_model()
+  File "C:\Users\jvazq\Data_Analysis_Tools\projects\ml_refuerzo\dev\mlui\predictor\views.py", line 10, in load_model
+    with open('dev/model/best_lr_model.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'dev/model/best_lr_model.pkl'
+"POST / HTTP/1.1" 500 145

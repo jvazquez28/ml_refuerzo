@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jvazq/Data_Analysis_Tools/projects/ml_refuerzo/mlruns/236024478057733211/392b20015e3e465cb14ff0738a83137d/artifacts
+end_time: 1733510671503
+entry_point_name: ''
+experiment_id: '236024478057733211'
+lifecycle_stage: active
+run_id: 392b20015e3e465cb14ff0738a83137d
+run_name: LogisticRegression
+run_uuid: 392b20015e3e465cb14ff0738a83137d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733510669541
+status: 3
+tags: []
+user_id: jvazq

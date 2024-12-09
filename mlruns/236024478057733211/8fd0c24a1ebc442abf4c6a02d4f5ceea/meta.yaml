@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jvazq/Data_Analysis_Tools/projects/ml_refuerzo/mlruns/236024478057733211/8fd0c24a1ebc442abf4c6a02d4f5ceea/artifacts
+end_time: 1733510669538
+entry_point_name: ''
+experiment_id: '236024478057733211'
+lifecycle_stage: active
+run_id: 8fd0c24a1ebc442abf4c6a02d4f5ceea
+run_name: KNN
+run_uuid: 8fd0c24a1ebc442abf4c6a02d4f5ceea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733510667664
+status: 3
+tags: []
+user_id: jvazq

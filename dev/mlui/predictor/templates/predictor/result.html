@@ -1,0 +1,23 @@
+<!-- mlui/predictor/templates/predictor/result.html -->
+{% extends 'predictor/base.html' %}
+{% block content %}
+{% if prediction %}
+    <h2>Single Prediction Result</h2>
+    <p>Predicted Category: {{ prediction }}</p>
+{% endif %}
+{% if predictions %}
+    <h2>Batch Predictions</h2>
+    <table>
+        <tr>
+            <th>Features</th>
+            <th>Prediction</th>
+        </tr>
+        {% for features, pred in predictions %}
+        <tr>
+            <td>{{ features }}</td>
+            <td>{{ pred }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.12.2
+model_size_bytes: 4624
+model_uuid: cfd580fc9b8347aa8b5c355e9bdff329
+run_id: 9db5927a-cf4f-4202-9430-088d2a2904e8
+signature:
+  inputs: '[{"type": "long", "name": "region", "required": true}, {"type": "long",
+    "name": "tenure", "required": true}, {"type": "long", "name": "age", "required":
+    true}, {"type": "long", "name": "marital", "required": true}, {"type": "long",
+    "name": "address", "required": true}, {"type": "long", "name": "income", "required":
+    true}, {"type": "long", "name": "ed", "required": true}, {"type": "long", "name":
+    "employ", "required": true}, {"type": "long", "name": "retire", "required": true},
+    {"type": "long", "name": "gender", "required": true}, {"type": "long", "name":
+    "reside", "required": true}]'
+  outputs: '[{"type": "long", "name": "custcat", "required": true}]'
+  params: null
+utc_time_created: '2024-12-05 16:34:44.758935'

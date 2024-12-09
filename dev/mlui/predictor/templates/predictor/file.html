@@ -1,0 +1,10 @@
+<!-- mlui/predictor/templates/predictor/file.html -->
+{% extends 'predictor/base.html' %}
+{% block content %}
+<h2>File Upload</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload and Predict</button>
+</form>
+{% endblock %}

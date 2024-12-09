@@ -1,0 +1,15 @@
+<!-- mlui/predictor/templates/predictor/single.html -->
+{% extends 'predictor/base.html' %}
+{% block content %}
+<h2>Single Prediction</h2>
+{% if error %}
+    <div style="color: red; margin-bottom: 10px;">
+        Error: {{ error }}
+    </div>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Predict</button>
+</form>
+{% endblock %}

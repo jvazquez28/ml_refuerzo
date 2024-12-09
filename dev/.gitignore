@@ -1,1 +1,4 @@
-github_fabric_key.txt   
+github_fabric_key.txt
+bak/*
+data/*
+../mlruns/*

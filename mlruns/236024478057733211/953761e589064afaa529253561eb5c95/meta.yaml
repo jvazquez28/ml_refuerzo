@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jvazq/Data_Analysis_Tools/projects/ml_refuerzo/mlruns/236024478057733211/953761e589064afaa529253561eb5c95/artifacts
+end_time: 1733510653820
+entry_point_name: ''
+experiment_id: '236024478057733211'
+lifecycle_stage: active
+run_id: 953761e589064afaa529253561eb5c95
+run_name: RandomForest
+run_uuid: 953761e589064afaa529253561eb5c95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733510644792
+status: 3
+tags: []
+user_id: jvazq

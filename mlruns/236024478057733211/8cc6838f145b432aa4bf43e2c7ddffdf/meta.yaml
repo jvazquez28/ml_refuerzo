@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jvazq/Data_Analysis_Tools/projects/ml_refuerzo/mlruns/236024478057733211/8cc6838f145b432aa4bf43e2c7ddffdf/artifacts
+end_time: 1733510698363
+entry_point_name: ''
+experiment_id: '236024478057733211'
+lifecycle_stage: active
+run_id: 8cc6838f145b432aa4bf43e2c7ddffdf
+run_name: XGBoost
+run_uuid: 8cc6838f145b432aa4bf43e2c7ddffdf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733510671507
+status: 3
+tags: []
+user_id: jvazq

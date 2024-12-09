@@ -1,0 +1,20 @@
+<!-- mlui/predictor/templates/predictor/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Category Predictor</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'predict_single' %}">Single Prediction</a>
+        <a href="{% url 'predict_file' %}">File Upload</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
+
+
+
+
+
